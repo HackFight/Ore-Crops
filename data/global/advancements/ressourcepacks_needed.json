@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Ressourcepacks needed",
+        "description": "",
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:ore_crops",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

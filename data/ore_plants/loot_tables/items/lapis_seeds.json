@@ -1,0 +1,31 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text":"Lapis Seeds","color":"white","italic":false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [{"text":"Ore Plants","color":"blue"}]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:13,EntityTag:{Invisible:1b,Invulnerable:1b,Fixed:1b,Silent:1b,Facing:1b,Tags:[\"ore_plants.to_place\",\"ore_plants.lapis_wheat\"]}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc:{id:\"lapis_seeds\",from:\"ore_plants\",traits:{seed:1b}}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
