@@ -1,6 +1,7 @@
 {
-	"pack": {
-		"pack_format": 8,
-		"description": "Adds mineral seeds."
-	}
+  "pack": {
+    "pack_format": 8,
+    "description": "Adds crops that grow ores.",
+    "supported_formats": [8, 9, 12]
+  }
 }

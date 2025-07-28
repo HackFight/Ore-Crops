@@ -1,15 +1,15 @@
 {
     "display": {
-        "title": "HackFight",
-        "description": "",
+        "title": "Ore Crops",
+        "description": "Adds crops that grow ores.",
         "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner:HackFight}"
+            "item": "minecraft:item_frame",
+            "nbt": "{CustomModelData:3000009}"
         },
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "global:root",
+    "parent": "global:ore_crops",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:tick"

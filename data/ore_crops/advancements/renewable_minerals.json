@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wheat_seeds"
+		},
+		"title": {
+			"text": "Renewable minerals ?"
+		},
+		"description": {
+			"text": "Mining is boring... farming is better."
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "minecraft:husbandry/plant_seed",
+	"criteria": {
+		"none": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

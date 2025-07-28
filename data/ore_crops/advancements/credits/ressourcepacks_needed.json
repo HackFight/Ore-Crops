@@ -1,15 +1,14 @@
 {
     "display": {
-        "title": "HackFight",
+        "title": "Ressourcepacks needed",
         "description": "",
         "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner:HackFight}"
+            "item": "minecraft:enchanted_book"
         },
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "global:root",
+    "parent": "ore_crops:credits/datapack",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:tick"

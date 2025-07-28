@@ -1,0 +1,31 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text":"Diamond Seeds","color":"white","italic":false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [{"text":"Ore Crops","color":"blue"}]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:3000009,EntityTag:{Invisible:1b,Invulnerable:1b,Fixed:1b,Silent:1b,Facing:1b,Tags:[\"ore_crops.to_place\",\"ore_crops.diamond_wheat\",\"global.ignore\",\"ore_crops\"]}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc:{id:\"diamond_seeds\",from:\"ore_crops\",traits:{\"item\":1b,\"seed\":1b}}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

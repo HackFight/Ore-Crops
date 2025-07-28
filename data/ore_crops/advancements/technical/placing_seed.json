@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:item_frame"
+					],
+					"nbt": "{ctc:{from:\"ore_crops\"}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ore_crops:seeds/place"
+	}
+}
